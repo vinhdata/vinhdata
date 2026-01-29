@@ -1,5 +1,5 @@
-site_name: VinhData - Data Engineer Portfolio & Knowledge Base
-site_description: A portfolio and knowledge base for data engineering, showcasing projects, tutorials, and best practices
+site_name: VinhData
+site_description: Data engineering knowledge base - technical articles, tutorials, and how-to guides
 site_author: Vinh Pham
 site_url: https://vinhdata.github.io/vinhdata
 
@@ -28,6 +28,8 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.tracking
+    - navigation.indexes
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -51,6 +53,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - meta
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -62,21 +65,22 @@ markdown_extensions:
 # Navigation
 nav:
   - Home: index.md
+  - Knowledge Base: blog/index.md
+  - Tags: tags.md
   - About: about.md
-  - Portfolio:
-    - portfolio/index.md
-  - Knowledge Base:
-    - knowledge-base/index.md
-    - Data Engineering:
-      - knowledge-base/data-engineering/index.md
-    - Infrastructure:
-      - knowledge-base/infrastructure/index.md
-    - Databases:
-      - knowledge-base/databases/index.md
 
 # Plugins
 plugins:
   - search
+  - tags
+  - blog:
+      blog_dir: blog
+      post_dir: "{blog}/posts"
+      categories_allowed:
+        - How-To
+        - Data Engineering
+        - Infrastructure
+        - Databases
 
 # Extra
 extra:
