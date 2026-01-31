@@ -11,15 +11,15 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -28,8 +28,6 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.tracking
-    - navigation.indexes
-    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -65,9 +63,9 @@ markdown_extensions:
 # Navigation
 nav:
   - Home: index.md
-  - Knowledge Base: blog/index.md
-  - Tags: tags.md
+  - Knowledge Base: []
   - About: about.md
+  - Tags: tags.md
 
 # Plugins
 plugins:
@@ -76,19 +74,34 @@ plugins:
   - blog:
       blog_dir: blog
       post_dir: "{blog}/posts"
+      # Keep the blog plugin's built-in navigation minimal
+      archive: false
+      categories: false
       categories_allowed:
         - How-To
         - Data Engineering
         - Infrastructure
         - Databases
 
+# Hooks
+hooks:
+  - hooks.py
+
 # Extra
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/vinhpham
+      link: https://github.com/vinhdata
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/vinhpham
+      link: https://www.linkedin.com/in/vinh-pham-444314148/
+
+# Custom styling
+extra_css:
+  - stylesheets/extra.css
+
+# Custom behavior
+extra_javascript:
+  - javascripts/move-tags-to-end.js
 
 # Copyright
 copyright: Copyright &copy; 2026 Vinh Pham

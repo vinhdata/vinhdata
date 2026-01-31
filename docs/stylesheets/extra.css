@@ -1,0 +1,26 @@
+/* Dark green header/accent for Material */
+:root {
+  /* Slightly lighter than before */
+  --md-primary-fg-color: #2e7d32; /* green 800 */
+  --md-primary-fg-color--light: #43a047; /* green 600 */
+  --md-primary-fg-color--dark: #1b5e20; /* green 900 */
+
+  --md-accent-fg-color: #43a047;
+}
+
+[data-md-color-scheme="slate"] {
+  /* Keep dark mode a touch deeper for contrast */
+  --md-primary-fg-color: #1b5e20; /* green 900 */
+  --md-primary-fg-color--light: #2e7d32; /* green 800 */
+  --md-primary-fg-color--dark: #0d3b12;
+
+  --md-accent-fg-color: #43a047;
+}
+
+/* Put post tags at the end with a separator */
+article.md-content__inner.md-typeset > nav.md-tags.md-tags--end {
+  margin-top: 2rem;
+  padding-top: 0.75rem;
+  border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
