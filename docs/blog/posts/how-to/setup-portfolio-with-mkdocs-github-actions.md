@@ -435,10 +435,11 @@ Check the Actions tab for detailed error logs. Common issues:
 ## Resources
 
 - [MkDocs Documentation](https://www.mkdocs.org/)
-- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - Modern theme
 - [uv Documentation](https://docs.astral.sh/uv/)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 
 ## Conclusion
 
 You now have a modern, automatically-deployed portfolio website! Every time you push to the `main` branch, GitHub Actions will build and deploy your site. Focus on creating great content - the infrastructure handles itself.
+
