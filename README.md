@@ -1,88 +1,26 @@
-# VinhData — Data Engineer Portfolio & Knowledge Base
+# Vinh Pham — Data Platform Engineer
 
-A portfolio and knowledge base website built with MkDocs and Material theme, deployed to GitHub Pages.
+I build and operate data platforms that are reliable, observable, and scalable—so teams can ship analytics and product features without fighting the pipeline.
 
-## Getting Started
+- **Portfolio / writing**: `https://vinhdata.github.io/vinhdata`
+- **LinkedIn**: `https://www.linkedin.com/in/vinh-pham-444314148/`
+- **GitHub**: `https://github.com/vinhdata`
 
-### Prerequisites
+## What I work on
 
-- Python 3.13+
-- [uv](https://docs.astral.sh/uv/) package manager
+- **Platform foundations**: Kubernetes-first runtimes, infrastructure-as-code, CI/CD, secure-by-default patterns
+- **Data movement**: batch + streaming ingestion, orchestration, backfills, schema/contract discipline
+- **Reliability**: SLAs/SLOs, cost + performance tuning, incident response, clear runbooks and on-call ergonomics
+- **Developer experience**: paved roads, templates, self-serve tooling, documentation that stays useful
 
-### Installation
+## Tooling (representative)
 
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd vinhdata
-```
+- **Languages**: Python, SQL, Go
+- **Orchestration / compute**: Airflow, Spark
+- **Streaming / messaging**: Redpanda
+- **Infra / ops**: Kubernetes, Terraform, Docker, Gitlab CI
+- **Datadabases**: MySQL, BigQuery, PostgreSQL
 
-2. Install dependencies:
-```bash
-uv sync
-```
+## Contact
 
-### Local Development
-
-Run the development server:
-```bash
-uv run mkdocs serve
-```
-
-The site will be available at `http://127.0.0.1:8000`
-
-### Build
-
-Build the static site:
-```bash
-uv run mkdocs build
-```
-
-The built site will be in the `site/` directory.
-
-## Deployment
-
-This site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
-
-### Setup GitHub Pages
-
-1. Go to your repository settings
-2. Navigate to **Pages** section
-3. Under **Source**, select **GitHub Actions**
-
-The GitHub Actions workflow (`.github/workflows/deploy.yml`) will automatically build and deploy your site.
-
-## Project Structure
-
-```
-vinhdata/
-├── docs/                    # Documentation source files
-│   ├── index.md            # Home page
-│   ├── about.md            # About page
-│   ├── portfolio/          # Portfolio section
-│   └── knowledge-base/     # Knowledge base articles
-│       ├── data-engineering/
-│       ├── infrastructure/
-│       └── databases/
-├── mkdocs.yml              # MkDocs configuration
-├── pyproject.toml          # Python project configuration
-└── .github/workflows/      # GitHub Actions workflows
-```
-
-## Adding Content
-
-### Add a New Article
-
-1. Create a new markdown file in the appropriate section under `docs/`
-2. Update `mkdocs.yml` navigation if needed
-3. Commit and push to deploy
-
-### Customize
-
-- Edit `mkdocs.yml` to customize site settings, theme, and navigation
-- Modify theme colors, fonts, and features in the `theme` section
-- Add plugins and markdown extensions as needed
-
-## License
-
-[Add your license here]
+Best way to reach me is via LinkedIn.
