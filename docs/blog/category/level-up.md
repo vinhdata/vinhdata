@@ -1,8 +1,8 @@
 ---
-title: Knowledge System Design
+title: Level Up
 ---
 
-# Think deeper. Learn faster. Remember longer.
+## Think deeper. Learn faster. Remember longer.
 
 Trong thời đại AI, kho tàng kiến thức trở nên khổng lồ và dễ tiếp cận hơn bao giờ hết. Nhưng dễ tiếp cận không có nghĩa là dễ nắm giữ. Chúng ta đọc nhanh hơn, hiểu nhanh hơn — và cũng quên nhanh hơn.
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-02-28
 categories:
-  - Knowledge System Design
+  - Level Up
 tags:
   - ai
   - critical thinking
