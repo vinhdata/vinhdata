@@ -78,6 +78,7 @@ plugins:
       post_dir: "{blog}/posts"
       archive: false
       categories: true
+      categories_sort_by: !!python/name:hooks.custom_sort.category_order
 
 # Extra
 extra:

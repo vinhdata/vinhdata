@@ -37,6 +37,8 @@ jobs:
 
       - name: Build MkDocs site
         run: uv run mkdocs build
+        env:
+          PYTHONPATH: ${{ github.workspace }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
