@@ -30,7 +30,9 @@ và biến AI thành lợi thế thực sự của mình.
 5 layers, 35 câu hỏi,
 từ bản chất đến thực hành,
 từ prompt engineering đến AI-augmented growth.
-Những bài sau sẽ đi sâu vào từng phần cụ thể.
+Bài deep-dive: [Cursor — người bạn đồng hành](cursor.md) (tool AI
+coding), [Prompt Engineering — từ làm quen đến thuần thục](prompt-engineering.md)
+(kỹ năng giao tiếp với AI, kết hợp Cursor).
 
 <!-- more -->
 

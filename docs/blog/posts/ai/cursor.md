@@ -743,6 +743,10 @@ Bạn không cần nhớ hết mọi tính năng. Chỉ cần nhớ framework:
 4. **Rules là bộ nhớ dài hạn** — AI mắc lỗi → cập nhật Rules
 5. **Commit trước Agent** — git là lưới an toàn cuối cùng
 
+Prompt bạn viết quyết định chất lượng không kém context. Kết hợp
+với [Prompt Engineering — từ làm quen đến thuần thục](prompt-engineering.md)
+để thành bộ đôi xử lý công việc hiệu quả.
+
 **Thử ngay:** mở project bạn đang làm, tạo file
 `.cursor/rules/general.md` với 5 dòng mô tả stack + convention.
 Mở Chat ở Ask mode, gõ `@codebase` *"giải thích architecture
