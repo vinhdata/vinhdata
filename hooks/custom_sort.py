@@ -1,6 +1,9 @@
 CATEGORY_ORDER = {
-    "Level Up": 0,
-    "Soft Skills": 1,
+    "AI": 0,
+    "Tech": 1,
+    "Level Up": 2,
+    "Soft Skills": 3,
+    "Life": 4,
 }
 
 
