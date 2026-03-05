@@ -1,33 +1,35 @@
-# Welcome to VinhData
+# VinhData
 
-> *Data engineering insights, technical guides, and hands-on tutorials*
+> *Data Engineer — DataOps — AI-Augmented Workflow*
 
-## About
-
-This is a personal knowledge base where I share practical data engineering experiences, infrastructure guides, and technical tutorials. Whether you're building data pipelines, deploying infrastructure, or learning new tools, you'll find step-by-step guides and real-world insights here.
-
-## What You'll Find
-
-### How-To Guides
-Step-by-step tutorials for common tasks and setups  
-→ [Browse guides](blog/index.md)
-
-### Data Engineering
-Articles on pipelines, orchestration, and data platforms  
-→ [Explore topics](blog/index.md)
-
-### Infrastructure
-Kubernetes, Terraform, networking, and DevOps practices  
-→ [Learn more](blog/index.md)
-
-### Databases
-SQL, NoSQL, optimization, and data modeling  
-→ [Read articles](blog/index.md)
-
-## Latest Content
-
-Visit the [Knowledge Base](blog/index.md) to see the latest articles, or browse by [Tags](tags.md) to find specific topics.
+Blog cá nhân của một Data Engineer đang xây dựng nền tảng vững cho sự nghiệp trong thời đại AI — từ kỹ thuật, tư duy vận hành, đến kỹ năng mềm cần thiết để tạo impact.
 
 ---
 
-*Built with [MkDocs](https://www.mkdocs.org/) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)*
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px" markdown>
+
+<div markdown>
+
+### :material-robot-outline: Sự nghiệp
+
+**[AI](blog/category/ai.md)** — Hiểu AI, dùng AI, prompt engineering, AI-augmented workflow.
+
+**[Tech](blog/category/tech.md)** — DataOps, Kubernetes, Databases, infrastructure, how-to guides.
+
+</div>
+
+<div markdown>
+
+### :material-trending-up: Phát triển
+
+**[Level Up](blog/category/level-up.md)** — Học nhanh nhớ lâu, productivity, OKR, quản lý thời gian.
+
+**[Soft Skills](blog/category/soft-skills.md)** — Technical writing, giao tiếp, leadership, influence.
+
+</div>
+
+</div>
+
+---
+
+→ [Đọc tất cả bài viết](blog/index.md) &nbsp;|&nbsp; [Tìm theo tag](tags.md)

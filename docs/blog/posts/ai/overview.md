@@ -1049,7 +1049,7 @@ từ bản chất (Layer 1), đến khả năng (Layer 2),
         style C fill:#e8f5e9,stroke:#2e7d32
     ```
 
-Giống như bài [Học nhanh. Nhớ lâu.](../level-up/overview.md)
+Giống như bài [Học nhanh. Nhớ lâu.](../level-up/hoc-nhanh-nho-lau.md)
 đã nói: máy tính lưu tệp, não lưu liên kết.
 AI generate output,
 nhưng **bạn là người tạo ra judgment**.
